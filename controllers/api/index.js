@@ -1,17 +1,11 @@
-// imports express' router object
 const router = require("express").Router();
-// points to our index.js within the api folder
-const apiRoutes = require("./api");
-// imports our home-route
-const homeRoutes = require("./home-routes.js");
-// imports our dashboard-routes
-const dashboardRoutes = require("./dash-routes.js");
 
-router.use("/", homeRoutes);
-router.use("/api", apiRoutes);
-router.use("/dashboard", dashboardRoutes);
+const userRoutes = require("./users-routes.js");
+const postRoutes = require("./posts-routes.js");
+const commentRoutes = require("./comments-routes.js");
 
-router.use((req, res) => {
-  res.status(404).end();
-});
+router.use("/users", usersRoutes);
+router.use("/posts", postsRoutes);
+router.use("/comments", commentsRoutes);
+
 module.exports = router;
