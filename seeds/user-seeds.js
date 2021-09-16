@@ -13,12 +13,12 @@ const userdata = [
     username: "Joel",
     password: "secret",
   },
+  {
+    username: "Doc",
+    password: "secret",
+  },
 ];
 
-const seedUser = () =>
-  User.bulkCreate(userdata, {
-    individualHooks: true,
-    returning: true,
-  });
+const seedUsers = () => User.bulkCreate(userdata);
 
-module.exports = seedUser;
+module.exports = seedUsers;
