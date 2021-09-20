@@ -1,15 +1,17 @@
-<div class="card mb-5">
-  <div class="card-header bg-secondary">
-    <h4 class="card-title"><a
-        class="text-info"
-        href="/post/{{id}}"
-      >{{title}}</a></h4>
-    <h6 class="card-subtitle mb-2 text-light">Posted by
+<div class="card">
+  <div class="card-header flex-row justify-space-between">
+    <h2>
+      <a href="/post/{{id}}">
+        <div class="col-8">{{postTitle}}</div>
+      </a>
+    </h2>
+    <div class="col-3">posted by
       {{user.username}}
       on
-      {{created_at}}</h6>
+      {{format_date dateCreated}}
+    </div>
   </div>
-  <div class="card-body">
-    <p class="card-text">{{content}}</p>
-  </div>
+  <p class="card-body">
+    {{postContent}}
+  </p>
 </div>
