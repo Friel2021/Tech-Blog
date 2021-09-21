@@ -1,16 +1,17 @@
-<div class="comments">
-  {{#each this}}
-    <div class="card">
-      <h3 class="card-header"></h3>
-      <section class="comment card-body">
-        <div class="text">
-          {{commentContent}}
+<div class="container row">
+  <div class="comments">
+    {{#each this}}
+      <div class="card post comment-box">
+        <div class="card-body post-body">
+          <div class="card-text comment-text">
+            {{comment_text}}
+          </div>
+          <div class="comment-author">
+            -{{user.username}},
+            {{format_date created_at}}
+          </div>
         </div>
-        <div class="meta">
-          -{{user.username}},
-          {{format_date created_at}}
-        </div>
-      </section>
-    </div>
-  {{/each}}
+      </div>
+    {{/each}}
+  </div>
 </div>
