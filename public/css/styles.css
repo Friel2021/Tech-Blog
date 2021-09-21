@@ -18,7 +18,7 @@ header,
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #e02362;
   text-decoration: none;
   font-size: 100%;
 }
@@ -29,17 +29,19 @@ header,
 }
 
 .logo:link {
-  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(216, 23, 23);
   text-decoration: none;
 }
 
 .logo:visited {
-  color: black;
+  color: rgb(235, 38, 38);
   text-decoration: none;
 }
 
 .logo:hover {
-  color: black;
+  color: rgb(28, 28, 255);
   text-decoration: none;
   opacity: 0.7;
   transition: 0.5s ease-in-out;
@@ -76,14 +78,14 @@ header,
 }
 
 .post-title {
-  background-color: lightgrey;
+  background-color: rgb(218, 214, 200);
   padding: 15px;
   margin-top: 0;
   text-align: left;
 }
 
 .post-title a:link {
-  color: #617ab7;
+  color: #0ae0bd;
   text-decoration: none;
 }
 
@@ -94,7 +96,7 @@ header,
 
 .post-title a:hover {
   text-decoration: none;
-  color: #0e506e;
+  color: #d41919;
 }
 
 .post-content {
