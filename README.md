@@ -5,8 +5,7 @@
 A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
 
 # Screenshot
-
-![Tech Blog]()
+![FireShot Capture 008 - The Tech Blog - localhost](https://user-images.githubusercontent.com/87154134/134100282-aa166f75-79e0-4d92-8b1f-18665b8e07d1.png)
 
 # Technologies
 
