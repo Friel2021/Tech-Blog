@@ -4,7 +4,7 @@
 
 A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
 
-Usage - navigate to https://pacific-journey-03720.herokuapp.com/ and select login.  Next, select sign up to create a new user.  Once registered, you can begin to add new posts/comments!
+Usage - navigate to https://sleepy-crag-26324.herokuapp.com/ and select login.  Next, select sign up to create a new user.  Once registered, you can begin to add new posts/comments!
 
 # Screenshot
 ![FireShot Capture 008 - The Tech Blog - localhost](https://user-images.githubusercontent.com/87154134/134100282-aa166f75-79e0-4d92-8b1f-18665b8e07d1.png)
